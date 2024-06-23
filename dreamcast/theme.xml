@@ -1,0 +1,42 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+                		
+		<image name="background_icon" extra="true">
+         <zIndex>1</zIndex>                 
+         <path>./background.png</path>
+        <pos>0 0</pos>
+        <size>1 1</size>         
+      </image>
+	</view>	
+	
+  	<view name="detailed, video, grid, gamecarousel">
+
+        <image name="icon44" extra="true">
+         <origin>0 0</origin>
+         <path>./system.png</path>         
+         <pos>0.72 0.7</pos>
+         <size>0.24 0.22</size>
+         <zIndex>20</zIndex>                                  
+      </image> 
+              
+	</view>		
+	
+  	<view name="basic">
+
+        <image name="icon44" extra="true">
+         <origin>0 0</origin>
+         <path>./system.png</path>         
+         <pos>0.5 0.1</pos>
+         <size>0.41 0.4</size>
+         <zIndex>20</zIndex>                          
+      </image> 
+              
+	</view>		
+		
+</theme>
